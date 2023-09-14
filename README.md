@@ -1,6 +1,6 @@
 # Portfolio Website README - How to Use This Template
 
-This is the README for the portfolio website, and we will provide instructions on how to use this template to customize your own website. The template is written in HTML, CSS, and JavaScript and can be easily adapted to your needs.
+This is the README for the portfolio website, and i will provide instructions on how to use this template to customize your own website. The template is written in HTML, CSS, and JavaScript and can be easily adapted to your needs.
 
 ## Prerequisites
 
