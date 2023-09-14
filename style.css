@@ -1,0 +1,196 @@
+/* Reset de estilos padrão do navegador */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o contêiner principal */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estilos para a parte esquerda do perfil */
+.profile-left {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+/* Estilos para a parte direita do perfil */
+.profile-right {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474e5a;
+    background-color: #61DBFB;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Estilos para as seções de destaque e conteúdo */
+.destaque, .conteudo {
+    margin-bottom: 20px;
+}
+
+.destaque h2, .conteudo h2 {
+    font-size: 20px;
+}
+
+/* Estilos para os ícones de linguagens de programação */
+.continhas img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o gráfico de atividade do GitHub */
+footer img {
+    max-width: 100%;
+}
+/* Efeito de escurecimento suave em links ao passar o mouse */
+nav ul li a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Efeito de zoom nas imagens do perfil e dos ícones de linguagens de programação */
+.profile-image, .continhas img {
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover, .continhas img:hover {
+    transform: scale(1.1);
+}
+
+/* CSS para a página de perfil */
+body {
+    background-color: #000000;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Kanit, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede a rolagem horizontal */
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 50px; 
+    box-sizing: border-box;
+}
+
+.profile-left {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0073e6;
+    color: white;
+}
+
+/* Efeito de partículas */
+@keyframes moveParticles {
+    0% {
+        transform: translateY(0) translateX(0);
+    }
+    100% {
+        transform: translateY(-200px) translateX(200px);
+    }
+}
+
+/* Estilize as partículas */
+.particle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff3c00; /* Cor das partículas */
+    border-radius: 50%;
+    animation: moveParticles 5s linear infinite;
+    opacity: 0.7;
+}
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1, h2, p {
+    font-family: 'Kanit', sans-serif;
+}
+
